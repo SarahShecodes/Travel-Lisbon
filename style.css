@@ -6,7 +6,9 @@ body {
   max-width: 1600px;
   margin: 0 auto;
 }
-
+.text-center {
+  text-align: center;
+}
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -23,17 +25,24 @@ body {
   max-width: 100%;
 }
 section {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
   color: #ffffff;
+}
+section.secondary {
+  background-color: #181525;
+  max-width: 1600px;
 }
 section p {
   opacity: 50%;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  text-align: justify;
+  text-justify: auto;
 }
+
 header {
   text-align: center;
   color: white;
