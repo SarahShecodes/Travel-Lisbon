@@ -41,6 +41,7 @@ body {
 .img-responsive {
   width: 100%;
   display: block;
+  filter: saturate(120%);
 }
 .card {
   background-color: #272435;
@@ -209,6 +210,9 @@ footer a {
 }
 footer a:hover {
   text-decoration: underline;
+}
+table {
+  opacity: 0.7;
 }
 
 @media (max-width: 960px) {
